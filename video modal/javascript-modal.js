@@ -4,7 +4,6 @@ const close = document.getElementById('close');
 
 open.addEventListener('click', () => {
     modal_container.classList.add('show');
-    console.log("clicked")
 });
 
 close.addEventListener('click', () => {
